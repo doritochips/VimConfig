@@ -27,10 +27,10 @@ set softtabstop=2
 set shiftwidth=2
 set autoindent
 set backspace=indent,eol,start
+set clipboard=unnamed
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
-
+se mouse+=a
 map <C-n> :NERDTreeToggle<CR>
-
